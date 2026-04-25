@@ -83,7 +83,7 @@ function Dashboard() {
     });
 
     return () => unsubscribe();
-  }, []);
+  }, [navigate]);
 
   // 🔹 FETCH ACTIVITIES
   const fetchActivities = async (uid) => {
