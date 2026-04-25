@@ -250,7 +250,7 @@ function Dashboard() {
             </p>
           </div>
         ))}
-
+<button onClick={handleDeleteActivity}>Delete</button>
         <button className="logout" onClick={handleLogout}>
           Logout
         </button>
